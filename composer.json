@@ -14,7 +14,7 @@
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
-        "bouvet_profile": {
+        {
             "type": "vcs",
             "url": "https://github.com/stinis87/bouvet_profile"
         }
