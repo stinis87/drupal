@@ -9,12 +9,10 @@
             "role": ""
         }
     ],
-    "repositories": {
-        "drupal": {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        }
-    },
+    "repositories": [
+        { "type": "composer", "url": "https://packages.drupal.org/8" },
+    	{ "type": "vcs", "url": "https://github.com/stinis87/bouvet_profile" }
+    ],
     "require": {
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
