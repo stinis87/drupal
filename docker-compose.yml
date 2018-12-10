@@ -41,7 +41,6 @@ services:
 #      - docker-sync:/var/www/html # Docker-sync
 ## For XHProf and Xdebug profiler traces
 #      - files:/mnt/files
-    command: composer install
 
   nginx:
     image: wodby/nginx:$NGINX_TAG
