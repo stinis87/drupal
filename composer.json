@@ -42,6 +42,7 @@
         "drupal/field_group": "^3.0",
         "drupal/search_api": "^1.11",
         "drupal/search_api_attachments": "^1.0",
+        "drupal/facets": "^1.2",
         "stinis87/bouvet_profile": "dev-master",
         "stinis87/bouvet_utils": "dev-master",
         "stinis87/drush_commands": "dev-master"
