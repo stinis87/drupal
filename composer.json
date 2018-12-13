@@ -14,7 +14,7 @@
     	{ "type": "vcs", "url": "https://github.com/stinis87/bouvet_profile" },
     	{ "type": "vcs", "url": "https://github.com/stinis87/bouvet_utils" },
     	{ "type": "vcs", "url": "https://github.com/stinis87/bouvet_theme" },
-    	{ "type": "vcs", "url": "https://github.com/stinis87/drush_commands" },
+    	{ "type": "vcs", "url": "https://github.com/stinis87/drush_commands" }
     ],
     "require": {
         "composer/installers": "^1.2",
