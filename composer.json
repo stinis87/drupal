@@ -13,7 +13,8 @@
         { "type": "composer", "url": "https://packages.drupal.org/8" },
     	{ "type": "vcs", "url": "https://github.com/stinis87/bouvet_profile" },
     	{ "type": "vcs", "url": "https://github.com/stinis87/bouvet_utils" },
-    	{ "type": "vcs", "url": "https://github.com/stinis87/drush_commands" }
+    	{ "type": "vcs", "url": "https://github.com/stinis87/bouvet_theme" },
+    	{ "type": "vcs", "url": "https://github.com/stinis87/drush_commands" },
     ],
     "require": {
         "composer/installers": "^1.2",
@@ -45,6 +46,7 @@
         "drupal/facets": "^1.2",
         "stinis87/bouvet_profile": "dev-master",
         "stinis87/bouvet_utils": "dev-master",
+        "stinis87/bouvet_theme": "dev-master",
         "stinis87/drush_commands": "dev-master"
     },
     "require-dev": {
