@@ -44,6 +44,7 @@
         "drupal/search_api": "^1.11",
         "drupal/search_api_attachments": "^1.0",
         "drupal/facets": "^1.2",
+        "drupal/focal_point": "^1.0",
         "stinis87/bouvet_profile": "dev-master",
         "stinis87/bouvet_utils": "dev-master",
         "stinis87/bouvet_theme": "dev-master",
