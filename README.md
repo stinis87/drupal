@@ -8,4 +8,5 @@ For oppstart av Drupal 8 docker containere med prekonfigurert profil
 6. Naviger til http:drupaldocker:8000
 7. Kjør site install og velg profilen "bouvet"
 8. Velg "drupal" på det meste av settings borsett fra hostname som skal være service name for databaseserver, by default "mariadb".
-9. For å endre på hvilke versjon av php, mariadb/mysql, nginx/apache osv benyttes .evn filen. Docker bildet og container må bygges op startes opp på nytt.
+9. Naviger til siden for konfigurering av filsystem og sett opp mappe for temp filer.
+10. For å endre på hvilke versjon av php, mariadb/mysql, nginx/apache osv benyttes .evn filen. Docker bildet og container må bygges op startes opp på nytt.
