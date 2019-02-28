@@ -205,6 +205,7 @@ services:
       - 'traefik.frontend.rule=Host:front.${PROJECT_BASE_URL}'
     expose:
       - "3000"
+    user: "root"
     volumes:
       - ./:/var/www/html
     command: sh -c 'yarn install && yarn run start && npm install gulp'
