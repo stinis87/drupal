@@ -10,7 +10,7 @@ For oppstart av Drupal 8 docker containere med prekonfigurert profil
 8. Velg "drupal" på det meste av settings borsett fra hostname som skal være service name for databaseserver, by default "mariadb".
 9. Naviger til siden for konfigurering av filsystem og sett opp mappe for temp filer.
 10. For å endre på hvilke versjon av php, mariadb/mysql, nginx/apache osv benyttes .evn filen. Docker bildet og container må bygges op startes opp på nytt.
-11. For å aktivere xdebug, fjern utkommentering av følgende:
+11. For å aktivere xdebug, fjern utkommentering av følgende i docker.compose.yml:
   PHP_XDEBUG: 1
   PHP_XDEBUG_DEFAULT_ENABLE: 1
   PHP_XDEBUG_REMOTE_CONNECT_BACK: 0
