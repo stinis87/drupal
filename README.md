@@ -14,6 +14,7 @@ For oppstart av Drupal 8 docker containere med prekonfigurert profil
   PHP_XDEBUG: 1
   PHP_XDEBUG_DEFAULT_ENABLE: 1
   PHP_XDEBUG_REMOTE_CONNECT_BACK: 0
+  PHP_XDEBUG_REMOTE_ENABLE: 1
   PHP_IDE_CONFIG: serverName=my-ide
   PHP_XDEBUG_REMOTE_HOST: host.docker.internal # Docker 18.03+ & Linux/Mac/Win
  
