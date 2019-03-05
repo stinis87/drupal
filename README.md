@@ -18,4 +18,12 @@ For oppstart av Drupal 8 docker containere med prekonfigurert profil
   PHP_IDE_CONFIG: serverName=my-ide
   PHP_XDEBUG_REMOTE_HOST: host.docker.internal # Docker 18.03+ & Linux/Mac/Win
  
- 12. Se https://wodby.com/docs/stacks/drupal/local/#ide-configuration-to-debug-cli-requests for enkelt oppsett av xdebug i PHPSTORM.
+ 12. Dersom du ønsker å bruke xdebug i phpstorm:
+ 
+  Open > Edit Configurations from the main menu, choose Defaults > PHP Web Page in the left sidebar
+  Click to [...] to the right of Server and add a new server
+  Enter name "my-ide" (as specified in PHP_IDE_CONFIG)
+  Enter any host, it does not matter
+  Check Use path mappings, select path to your project and enter /var/www/html/web in the right column (Absolute path on the server)
+  Choose newly created server in "Server" for PHP Web Page
+  Save settings
