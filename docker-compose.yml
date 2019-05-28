@@ -199,7 +199,7 @@ services:
   node:
     image: wodby/node:$NODE_TAG
     container_name: "${PROJECT_NAME}_node"
-    working_dir: /var/www/html/web/themes/contrib/bouvet_theme
+    working_dir: /var/www/html/web/themes/custom/bouvet_theme
     labels:
       - 'traefik.backend=${PROJECT_NAME}_node'
       - 'traefik.port=3000'
