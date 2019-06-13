@@ -20,10 +20,7 @@ For oppstart av Drupal 8 docker containere med prekonfigurert profil
 
 10. For å endre på hvilke versjon av php, mariadb/mysql, nginx/apache osv benyttes .evn filen. Docker bildet og container må bygges op startes opp på nytt.
 
-11. NB: HUSK Å FJERNE!!!!!!!
-  "stinis87/bouvet_theme": "dev-master",
-  "stinis87/bouvet_utils": "dev-master",
-fra composer.json filen slik at den ikke overskrives når man igjen kjører composer install senere.
+11. NB: VIKTIG!! HUSK Å FJERNE ALLE SPOR AV bouvet_theme og bouvet_utils i composer.json og composer.lock filene!!!! Dette er for å forhindre at innholdet i mappene skrives over når noen kjører ny composer install.
 
 12. For å aktivere xdebug, fjern utkommentering av følgende i docker.compose.yml:
   PHP_XDEBUG: 1
